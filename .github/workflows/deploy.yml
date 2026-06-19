@@ -19,7 +19,8 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /  # Change to /htdocs/ or your web root if needed
+          protocol: sftp
+          server-dir: /public  # Change to /htdocs/ or your web root if needed
           exclude: |
             **/.git*
             **/.git*/**
