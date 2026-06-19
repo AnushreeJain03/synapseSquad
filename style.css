@@ -4,6 +4,12 @@
   --accent: #3bff65;
 }
 
+:root:hover {
+  --bg: #0f0f12;
+  --fg: #ffffff;
+  --accent: #db0b0b;
+}
+
 * {
   margin: 0;
   padding: 0;
